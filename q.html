@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-04-19 Sun 04:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Q Behind Qanon: The Uncomfortable Evidence</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="C4A03D70" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.cacheClassElem = elem.className;
+         elem.cacheClassTarget = target.className;
+         target.className = "code-highlighted";
+         elem.className   = "code-highlighted";
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(elem.cacheClassElem)
+         elem.className = elem.cacheClassElem;
+       if(elem.cacheClassTarget)
+         target.className = elem.cacheClassTarget;
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Q Behind Qanon: The Uncomfortable Evidence</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org7150f91">1. Who is Q?</a></li>
+<li><a href="#org68c56b5">2. How is Q&rsquo;s identity verified? Tripcodes.</a></li>
+<li><a href="#org49295ee">3. Why would Q use an insecure form of verification?</a></li>
+<li><a href="#orgca8c068">4. Why would Q limit comms to a site that is beholden to U.S. law?</a></li>
+<li><a href="#org35c5edb">5. Why would Q limit comms to a 8kun, a site with young cartoon porn and fetishes?</a></li>
+<li><a href="#org4e881f5">6. Why would Q leave &ldquo;codes&rdquo; in his signatures?</a></li>
+<li><a href="#org0a67134">7. Why would Q use 8kun?</a></li>
+<li><a href="#orgfce53d6">8. Who are the owners/administrators of 8kun?</a>
+<ul>
+<li><a href="#orgdd09220">8.1. Q&rsquo;s posts align with Jim Watkins interests more than just politically.</a>
+<ul>
+<li><a href="#orgf79fe36">8.1.1. Pens</a></li>
+<li><a href="#org890d363">8.1.2. Codes</a></li>
+<li><a href="#orgae12e93">8.1.3. Oz</a></li>
+<li><a href="#orgd8f6a8a">8.1.4. Yoga</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7150f91" class="outline-2">
+<h2 id="org7150f91"><span class="section-number-2">1</span> Who is Q?</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Given the gravity and power behind Q and the QAnon movement, nothing is more
+important than verifying the identity of Q.
+</p>
+
+<p>
+How do we know Q&rsquo;s messages are coming from someone at a high level of military
+intelligence?
+</p>
+
+<p>
+Can we confirm the validity of Q&rsquo;s messages?
+</p>
+
+<p>
+It may be important for Q to keep his actual identity a secret.
+</p>
+
+<ul class="org-ul">
+<li>Can we confirm he has powerful resources at his disposal?</li>
+<li>Can we confirm he is fighting attacks by the CIA, FBI, and Hollywood?</li>
+<li>Is he taking the types of precautions that someone would take when faced with
+these threats?</li>
+</ul>
+
+<p>
+As patriots in seek of truth, we must follow the evidence wherever it leads us;
+however uncomfortable it makes us.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org68c56b5" class="outline-2">
+<h2 id="org68c56b5"><span class="section-number-2">2</span> How is Q&rsquo;s identity verified? Tripcodes.</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Q uses tripcodes to prove that his messages are truly from him and not from an
+imposter.
+</p>
+
+<p>
+Tripcodes are a feature of the image boards that Q posts his messages on.
+</p>
+
+
+<div class="figure">
+<p><img src="tripcodes.png" alt="tripcodes.png" width="80%" />
+</p>
+</div>
+
+<p>
+When Q posts a message, he types in his password. The message board software
+(4chan/8chan/8kun) converts his password to certain seemingly random characters.
+Those characters are Q&rsquo;s &ldquo;tripcode&rdquo;.
+</p>
+
+<p>
+Only someone who knows the password can post using that tripcode.
+</p>
+
+<p>
+For example:
+</p>
+
+<p>
+Q posts a message using the password &ldquo;M@tlock!&rdquo;. That password gets converted to
+the tripcode &ldquo;!UW.yye1fxo&rdquo;.
+</p>
+
+<p>
+Only someone who posts with the password &ldquo;M@tlock!&rdquo; will be able to post under
+the tripcode &ldquo;!UW.yye1fxo&rdquo;.
+</p>
+
+<p>
+That is how Q proves that messages are from him.
+</p>
+
+<p>
+Only he knows the password (supposedly&#x2026;), M@tlock!, so only he posts messages with the
+tripcode !UW.yye1fxo
+</p>
+
+<p>
+But tripcodes are insecure!
+</p>
+
+<p>
+They have been cracked many times. These are some of Q&rsquo;s tripcodes that have
+been cracked by ordinary citizens on consumer hardware.
+</p>
+
+<pre class="example">
+Tripcode:  ITPb.qbhqo  -&gt;  Password:  Matlock
+Tripcode:  UW.yye1fxo  -&gt;  Password:  M@tlock!
+Tripcode:  xowAT4Z3VQ  -&gt;  Password:  Freed@m-
+Tripcode:  2jsTvXXmXs  -&gt;  Password:  F!ghtF!g
+Tripcode:  4pRcUA0lBE  -&gt;  Password:  NowC@mes
+Tripcode:  CbboFOtcZs  -&gt;  Password:  StoRMkiL
+Tripcode:  A6yxsPKia.  -&gt;  Password:  WeAReQ@Q
+</pre>
+
+<p>
+These weren&rsquo;t cracked by the boundless resources of the deep state. These were
+cracked with off-the-shell software and hardware that any normal citizen could
+operate.
+</p>
+
+<p>
+There are articles as old as 1997 that expose the insecurties of the
+DES/crypt(3) algorithm used by the message boards.
+<a href="http://personal.stevens.edu/~khockenb/crypt3.html">http://personal.stevens.edu/~khockenb/crypt3.html</a>
+</p>
+
+<p>
+Note: <b>&ldquo;Longer passwords can be ignored, since crypt(3) will discard all
+but the first 8 characters of a password&rdquo;</b>
+</p>
+
+<p>
+So even if Q used a more secure/longer password, only the first 8 characters get
+checked.
+</p>
+
+<p>
+Did he know this? If not, he must not care very much about security. If
+he did know it, then why were his confirmed leaked passwords longer than 8
+characters?
+</p>
+
+<p>
+Like this one: &ldquo;NowC@mesTHEP@in&#x2014;23&rdquo;
+</p>
+
+<p>
+<b>He&rsquo;s either ignorant about security or he&rsquo;s purposefully misleading, or both.</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org49295ee" class="outline-2">
+<h2 id="org49295ee"><span class="section-number-2">3</span> Why would Q use an insecure form of verification?</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Q hasn&rsquo;t said who he is.
+</p>
+
+<p>
+But his message is that he is intelligent when it comes
+to security and that people in power are trying to discredit and quiet him.
+</p>
+
+<p>
+<b>Choosing insecure message board tripcodes as a form of verification is
+contrary to that message.</b>
+</p>
+
+<p>
+Surely someone like Q would know that this type of tripcode is insecure.
+</p>
+
+<p>
+Surely Q would use a secure and platform-agnostic method of verification like
+<a href="https://www.openpgp.org/">PGP</a>.
+</p>
+
+<p>
+With <a href="https://www.phildev.net/pgp/gpgsigning.html">PGP signing</a>, Q could prove his identity on ANY platform. Even if
+4chan/8chan/8kun got shut down, Q&rsquo;s messages and identity could still be
+verified.
+</p>
+
+<p>
+By choosing to use a tripcode, Q has restricted his verification to a particular
+message board.
+</p>
+
+<p>
+<b>Why does Q use insecure identity verification? It contradicts his own message.</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgca8c068" class="outline-2">
+<h2 id="orgca8c068"><span class="section-number-2">4</span> Why would Q limit comms to a site that is beholden to U.S. law?</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+Q has chosen a form of communication, 4chan/8chan/8kun, that is insecure and
+beholden to U.S. law.
+</p>
+
+<p>
+8kun even complies to DMCA copyright notices.
+</p>
+
+
+<div class="figure">
+<p><img src="dmca.png" alt="dmca.png" width="80%" />
+</p>
+</div>
+
+<p>
+If Q is in a fight against the Hollywood, the deep state, the CIA, and the FBI,
+why would he choose restrict his message to a site that conforms with their
+laws?
+</p>
+
+<p>
+Since there is a simple and platform-agnostic option available, PGP, why would
+he choose insecure and restrictive 8chan tripcodes and &ldquo;no outside comms&rdquo;?
+</p>
+
+<p>
+<b>Why does Q restrict his message to a platform that is beholden to the law? It
+contradicts his own message and motives.</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org35c5edb" class="outline-2">
+<h2 id="org35c5edb"><span class="section-number-2">5</span> Why would Q limit comms to a 8kun, a site with young cartoon porn and fetishes?</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+These some of the most popular message boards on 8kun:
+</p>
+
+<ul class="org-ul">
+<li>Hentai Games General (Hentai is cartoon porn. Because cartoons don&rsquo;t have age,
+much of this porn is drawn to look very young.)</li>
+<li>Adult Baby - Diaper Lover</li>
+<li>Tickling Refuge (A tickling/torture fetish board)</li>
+<li>Hentai &amp; Cartoon Porn</li>
+<li>Erotic Roleplay</li>
+<li>Furry (Cartoon porn and roleplay of animal sex)</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="8kun.png" alt="8kun.png" width="80%" />
+</p>
+</div>
+
+<p>
+If Q&rsquo;s message is to clean up deep state pedophile rings, why does he restrict
+communication to an online platform that caters to this filth?
+</p>
+
+<p>
+We already see it has nothing to do with identity verification. That can be done
+through more secure means, like PGP.
+</p>
+
+<p>
+We already see it has nothing to do with free speech and not being silenced.
+8kun is beholden to the law and even complies with DMCA notices.
+</p>
+
+<p>
+<b>Q posting on 8kun is contradictory to his own message.</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4e881f5" class="outline-2">
+<h2 id="org4e881f5"><span class="section-number-2">6</span> Why would Q leave &ldquo;codes&rdquo; in his signatures?</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+This is another contradiction in Q&rsquo;s message.
+</p>
+
+<p>
+Why use codes? Why drop hints? Why not be direct?
+</p>
+
+<p>
+Possible answers?
+</p>
+
+<ul class="org-ul">
+<li>Q wants the truth hidden from the deep state.</li>
+</ul>
+
+<p>
+Then the codes must be sophisticated. The clues must be obscure.
+</p>
+
+<p>
+Are the resources of the imageboard posters greater than the resources of the
+deep state? Can imageboard posters figure this out before the deep state?
+</p>
+
+<ul class="org-ul">
+<li>Q wants people to think for themselves. He wants to connect with people who
+have an interest in pulling on threads to find an answer.</li>
+</ul>
+
+<p>
+Then the codes must be intriguing.
+</p>
+
+<ul class="org-ul">
+<li>Q wants to connect with people who are good detectives. The deep state is
+well-hidden.</li>
+</ul>
+
+<p>
+Then the codes must be difficult to crack.
+</p>
+
+<p>
+<b>But Q&rsquo;s codes are not sophisticated or difficult to crack.</b>
+</p>
+
+<p>
+Q uses the signature <code>God bless my fellow Americans. 4,10,20</code> in drop 35.
+</p>
+
+<p>
+What does that mean? Is that a date? Some type of coordinates?
+</p>
+
+<p>
+It sparks something. It makes his post stand out from posts that don&rsquo;t include
+something &ldquo;mysterious&rdquo;.
+</p>
+
+<p>
+Then in drop 40 he reveals <code>4,10,20 A,b,c,d,e.....</code>.
+</p>
+
+
+<div class="figure">
+<p><img src="4-10-20.png" alt="4-10-20.png" width="80%" />
+</p>
+</div>
+
+<p>
+Why would Q use such a simple cipher? Why not just sign off with &ldquo;D.J.T.&rdquo;?
+</p>
+
+<p>
+The first result in Google for the letter-number cipher is a page titled &ldquo;7
+Secret Spy Codes and Ciphers for Kids&rdquo;.
+</p>
+
+
+<div class="figure">
+<p><img src="letter-number.png" alt="letter-number.png" width="80%" />
+</p>
+</div>
+
+<p>
+The code is so simple, it&rsquo;s effectively no code at all. Why not be direct?
+</p>
+
+<p>
+If you say he&rsquo;s not direct because he needs people to think for themselves and
+dig, then why does he respond with the answer to the cipher 5 drops later?
+</p>
+
+<p>
+If you say there is more meaning to the code, like the date is significant, then
+why would Q post a significant date when he needs to keep things hidden from the
+deep state?
+</p>
+
+<p>
+<b>The code is not sophisticated. Q gives the answer to confirm the decipher.
+Anons don&rsquo;t need to be expert sleuths. This contradics Q&rsquo;s own message.</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0a67134" class="outline-2">
+<h2 id="org0a67134"><span class="section-number-2">7</span> Why would Q use 8kun?</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+Q works directly with CodeMonkey, an administrator of 8kun/8chan.
+</p>
+
+
+<div class="figure">
+<p><img src="q-ron.png" alt="q-ron.png" width="80%" />
+</p>
+</div>
+
+<p>
+CodeMonkey is Ron Watkins.
+</p>
+
+<p>
+<a href="https://twitter.com/codemonkeyz">https://twitter.com/codemonkeyz</a>
+</p>
+
+<p>
+Ron Watkins is Jim Watkins son.
+</p>
+
+<p>
+Jim Watkins is the owner of 8chan/8kun.
+</p>
+
+<p>
+Jim&rsquo;s son, Ron Watkins is CodeMonkey, is the adminstrator of 8kun, and is a
+programmer.
+</p>
+
+<p>
+Whenever 8chan or 8kun is &ldquo;attacked&rdquo;, Ron Watkins is the person responsible for
+keeping the website up.
+</p>
+
+<p>
+Ron works on a crypto project, Susucoin.. Note the young-looking anime girl that
+is the mascot/icon of Susucoin. Part of Q&rsquo;s message is about fighting
+pedophilia. Q coordinates with CodeMonkeyZ (Ron Watkins, 8chan/8kun
+administrator). Ron contributes to Susucoin. Susucoin&rsquo;s &ldquo;mascot&rdquo; is a cartoon of
+a young girl.
+</p>
+
+
+<div class="figure">
+<p><img src="ron-susucoin.png" alt="ron-susucoin.png" width="80%" />
+</p>
+</div>
+
+<p>
+CodeMonkeyZ (Ron Watkins) retweeted that they will be giving out Susucoin to
+whoever draws the cutest picture of their mascot, Susuko.
+<a href="https://twitter.com/susucoin">https://twitter.com/susucoin</a>
+</p>
+
+
+<div class="figure">
+<p><img src="susuko-cometition.png" alt="susuko-cometition.png" width="80%" />
+</p>
+</div>
+
+<p>
+CodeMonkeyZ (Ron Watkins) also retweeted these young-looking Japanese girls
+making hearts over their exposed breasts.
+</p>
+
+
+<div class="figure">
+<p><img src="ron-porn.png" alt="ron-porn.png" width="80%" />
+</p>
+</div>
+
+<p>
+<b>This is the administrator of 8kun, he works directly with Q to verify Q&rsquo;s
+identity.</b>
+</p>
+
+<p>
+If Q is fighting to protect children, why does his identity get verified by Ron
+Watkins, CodeMonkey, who retweets young-looking pornography and sexually
+suggestive young-looking cartoons?
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfce53d6" class="outline-2">
+<h2 id="orgfce53d6"><span class="section-number-2">8</span> Who are the owners/administrators of 8kun?</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+Jim Watkins owns the website that Q posts on, 8kun.top.
+</p>
+
+<p>
+He was the former owner of Q&rsquo;s previous website, 8chan.
+</p>
+
+<p>
+James Arthur Watkins
+Father of Ron Watkins (CodeMonkey)
+a.k.a Xerxes Watkins
+</p>
+
+<p>
+Jim launched TheGoldwater.com in 2016, about 1 year before Q made his first
+post.
+</p>
+
+
+<div class="figure">
+<p><img src="jim-goldwater.png" alt="jim-goldwater.png" width="80%" />
+</p>
+</div>
+
+<p>
+Ron retweets TheGoldwater in 2016. TheGoldwater pushes the same narrative that Q
+is pushing.
+</p>
+
+<p>
+TheGoldwater starts in 2016, a year before Q.
+</p>
+
+<ul class="org-ul">
+<li>&ldquo;Mind Control Techniques Employed By The Elite With The Help Of The Mainstream
+Media&rdquo;</li>
+<li>&ldquo;Shut Down the Corrupt Clinton Foundation - Judicial Watch &rdquo;</li>
+<li>&ldquo;House Investigators Questioned Creepy Podesta&rdquo;</li>
+<li>&ldquo;MORE PEDO BUSTS! ‘A Current Affair’ Reporter Ben McCormack Arrested&rdquo;</li>
+<li>&ldquo;HAPPENING AGAIN! Massive Pedophile Ring Of 900 Arrested - Media Silent&rdquo;</li>
+<li>&ldquo;More Proof Comey is a &#x2026;&rdquo;</li>
+<li>&ldquo;Massive Pedophile Ring Rounded up in California:&rdquo;</li>
+</ul>
+
+<p>
+Those are not from Q.
+</p>
+
+<p>
+Those are from Jim Watkin&rsquo;s website, TheGoldwater, from 2016 to early 2017, before Q started posting the
+same narrative on 4chan.
+</p>
+
+
+<div class="figure">
+<p><img src="same-narrative.png" alt="same-narrative.png" width="80%" />
+</p>
+</div>
+
+<p>
+Jim Watkins also is in control of the Twitter account \@isitwetyet.
+</p>
+
+<p>
+He is the creator of a Super PAC, <a href="https://disarmthedeepstate.com/">Disarm the Deep State</a>.
+</p>
+
+<p>
+This is the owner of 8kun. He is pushing the same narrative as Q. He&rsquo;s been doing it
+since 2016, over a year before Q was around.
+</p>
+
+
+<div class="figure">
+<p><img src="isitwet-disarm.png" alt="isitwet-disarm.png" width="80%" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdd09220" class="outline-3">
+<h3 id="orgdd09220"><span class="section-number-3">8.1</span> Q&rsquo;s posts align with Jim Watkins interests more than just politically.</h3>
+<div class="outline-text-3" id="text-8-1">
+</div>
+<div id="outline-container-orgf79fe36" class="outline-4">
+<h4 id="orgf79fe36"><span class="section-number-4">8.1.1</span> Pens</h4>
+<div class="outline-text-4" id="text-8-1-1">
+<p>
+Q often posts pens as part of his proofs/verification.
+</p>
+
+<p>
+Jim Watkins collects fountain pens.
+</p>
+
+
+<div class="figure">
+<p><img src="pens.png" alt="pens.png" width="80%" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org890d363" class="outline-4">
+<h4 id="org890d363"><span class="section-number-4">8.1.2</span> Codes</h4>
+<div class="outline-text-4" id="text-8-1-2">
+<p>
+Jim Watkins writes his dates with Greek letters in a code that is similar to
+roman numerals. This is a code that isn&rsquo;t sophisticated or difficult to figure
+out. It&rsquo;s similar to the types of codes that Q uses.
+</p>
+
+
+<div class="figure">
+<p><img src="code.png" alt="code.png" width="80%" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgae12e93" class="outline-4">
+<h4 id="orgae12e93"><span class="section-number-4">8.1.3</span> Oz</h4>
+<div class="outline-text-4" id="text-8-1-3">
+<p>
+Q references the &ldquo;Yellow Brick Road&rdquo; from The Wizard of Oz.
+</p>
+
+<p>
+Jim reads The Wizard of Oz on his Youtube.
+</p>
+
+
+<div class="figure">
+<p><img src="oz.png" alt="oz.png" width="80%" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd8f6a8a" class="outline-4">
+<h4 id="orgd8f6a8a"><span class="section-number-4">8.1.4</span> Yoga</h4>
+<div class="outline-text-4" id="text-8-1-4">
+<p>
+Q has started posting Yoga content. He links to this healing video that has the
+hashtag yoga.
+</p>
+
+
+<div class="figure">
+<p><img src="yoga.png" alt="yoga.png" width="80%" />
+</p>
+</div>
+
+<p>
+Jim Watkins has many yoga videos on his social media.
+</p>
+
+
+<div class="figure">
+<p><img src="jim-yoga.png" alt="jim-yoga.png" width="80%" />
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: C4A03D70</p>
+<p class="date">Created: 2020-04-19 Sun 04:44</p>
+</div>
+</body>
+</html>

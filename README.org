@@ -1,0 +1,5 @@
+#+TITLE: Readme
+
+* Contributing
+
+Truth is not enough. It must be received by those who most need it. Focus on reception.

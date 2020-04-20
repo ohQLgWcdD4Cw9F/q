@@ -30,7 +30,7 @@ imposter.
 Tripcodes are a feature of the image boards that Q posts his messages on.
 
 #+ATTR_HTML: :width 80%
-[[file:tripcodes.png]]
+[[file:images/tripcodes.png]]
 
 When Q posts a message, he types in his password. The message board software
 (4chan/8chan/8kun) converts his password to certain seemingly random characters.
@@ -120,7 +120,7 @@ beholden to U.S. law.
 8kun even complies to DMCA copyright notices.
 
 #+ATTR_HTML: :width 80%
-[[file:dmca.png]]
+[[file:images/dmca.png]]
 
 If Q is in a fight against the Hollywood, the deep state, the CIA, and the FBI,
 why would he choose restrict his message to a site that conforms with their
@@ -145,7 +145,7 @@ These some of the most popular message boards on 8kun:
 - Furry (Cartoon porn and roleplay of animal sex)
 
 #+ATTR_HTML: :width 80%
-[[file:8kun.png]]
+[[file:images/8kun.png]]
 
 If Q's message is to clean up deep state pedophile rings, why does he restrict
 communication to an online platform that caters to this filth?
@@ -195,7 +195,7 @@ something "mysterious".
 Then in drop 40 he reveals ~4,10,20 A,b,c,d,e.....~.
 
 #+ATTR_HTML: :width 80%
-[[file:4-10-20.png]]
+[[file:images/4-10-20.png]]
 
 Why would Q use such a simple cipher? Why not just sign off with "D.J.T."?
 
@@ -203,7 +203,7 @@ The first result in Google for the letter-number cipher is a page titled "7
 Secret Spy Codes and Ciphers for Kids".
 
 #+ATTR_HTML: :width 80%
-[[file:letter-number.png]]
+[[file:images/letter-number.png]]
 
 The code is so simple, it's effectively no code at all. Why not be direct?
 
@@ -222,7 +222,7 @@ Anons don't need to be expert sleuths. This contradics Q's own message.*
 Q works directly with CodeMonkey, an administrator of 8kun/8chan.
 
 #+ATTR_HTML: :width 80%
-[[file:q-ron.png]]
+[[file:images/q-ron.png]]
 
 CodeMonkey is Ron Watkins.
 
@@ -245,20 +245,20 @@ administrator). Ron contributes to Susucoin. Susucoin's "mascot" is a cartoon of
 a young girl.
 
 #+ATTR_HTML: :width 80%
-[[file:ron-susucoin.png]]
+[[file:images/ron-susucoin.png]]
 
 CodeMonkeyZ (Ron Watkins) retweeted that they will be giving out Susucoin to
 whoever draws the cutest picture of their mascot, Susuko.
 https://twitter.com/susucoin
 
 #+ATTR_HTML: :width 80%
-[[file:susuko-cometition.png]]
+[[file:images/susuko-cometition.png]]
 
 CodeMonkeyZ (Ron Watkins) also retweeted these young-looking Japanese girls
 making hearts over their exposed breasts.
 
 #+ATTR_HTML: :width 80%
-[[file:ron-porn.png]]
+[[file:images/ron-porn.png]]
 
 *This is the administrator of 8kun, he works directly with Q to verify Q's
 identity.*
@@ -281,7 +281,7 @@ Jim launched TheGoldwater.com in 2016, about 1 year before Q made his first
 post.
 
 #+ATTR_HTML: :width 80%
-[[file:jim-goldwater.png]]
+[[file:images/jim-goldwater.png]]
 
 Ron retweets TheGoldwater in 2016. TheGoldwater pushes the same narrative that Q
 is pushing.
@@ -303,7 +303,7 @@ Those are from Jim Watkin's website, TheGoldwater, from 2016 to early 2017, befo
 same narrative on 4chan.
 
 #+ATTR_HTML: :width 80%
-[[file:same-narrative.png]]
+[[file:images/same-narrative.png]]
 
 Jim Watkins also is in control of the Twitter account \@isitwetyet.
 
@@ -313,7 +313,7 @@ This is the owner of 8kun. He is pushing the same narrative as Q. He's been doin
 since 2016, over a year before Q was around.
 
 #+ATTR_HTML: :width 80%
-[[file:isitwet-disarm.png]]
+[[file:images/isitwet-disarm.png]]
 
 ** Q's posts align with Jim Watkins interests more than just politically.
 
@@ -324,7 +324,7 @@ Q often posts pens as part of his proofs/verification.
 Jim Watkins collects fountain pens.
 
 #+ATTR_HTML: :width 80%
-[[file:pens.png]]
+[[file:images/pens.png]]
 
 *** Codes
 
@@ -333,7 +333,7 @@ roman numerals. This is a code that isn't sophisticated or difficult to figure
 out. It's similar to the types of codes that Q uses.
 
 #+ATTR_HTML: :width 80%
-[[file:code.png]]
+[[file:images/code.png]]
 
 *** Oz
 
@@ -342,17 +342,15 @@ Q references the "Yellow Brick Road" from The Wizard of Oz.
 Jim reads The Wizard of Oz on his Youtube.
 
 #+ATTR_HTML: :width 80%
-[[file:oz.png]]
+[[file:images/oz.png]]
 
 *** Yoga
 
 Q has started posting Yoga content. He links to this healing video that has the
-hashtag yoga.
+hashtag yoga. Jim Watkins is a big proponent of yoga.
 
-#+ATTR_HTML: :width 80%
-[[file:yoga.png]]
+#+ATTR_HTML: :width 60%
+[[file:images/yoga.png]]
 
-Jim Watkins has many yoga videos on his social media.
-
-#+ATTR_HTML: :width 80%
-[[file:jim-yoga.png]]
+#+ATTR_HTML: :width 60%
+[[file:images/jim-yoga.png]]

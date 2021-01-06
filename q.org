@@ -344,13 +344,3 @@ Jim reads The Wizard of Oz on his Youtube.
 #+ATTR_HTML: :width 80%
 [[file:images/oz.png]]
 
-*** Yoga
-
-Q has started posting Yoga content. He links to this healing video that has the
-hashtag yoga. Jim Watkins is a big proponent of yoga.
-
-#+ATTR_HTML: :width 60%
-[[file:images/yoga.png]]
-
-#+ATTR_HTML: :width 60%
-[[file:images/jim-yoga.png]]
